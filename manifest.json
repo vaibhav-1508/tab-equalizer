@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Equalizer",
+  "version": "1.0.0",
+  "description": "10-band equalizer for any audio playing in a Chrome tab.",
+  "minimum_chrome_version": "124",
+  "permissions": ["tabCapture", "offscreen", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Tab Equalizer",
+    "default_popup": "popup.html"
+  }
+}
